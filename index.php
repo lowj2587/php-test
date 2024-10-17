@@ -1,7 +1,7 @@
 <?php
 
-$content = file_get_contents('http://www.google.co.in');
-$content = str_replace('</title>','</title><base href="http://www.google.co.in" target="_top"/>', $content);
+$content = file_get_contents('https://open.spotify.com');
+$content = str_replace('</title>','</title><base href="https://open.spotify.com/" target="_top"/>', $content);
 echo $content;
 
 echo "
